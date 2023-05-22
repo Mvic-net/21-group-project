@@ -19,7 +19,7 @@
   
 
   <script type="module" crossorigin src="/21-group-project/assets/index-c09e477e.js"></script>
-  <link rel="stylesheet" href="/21-group-project/assets/index-38cc87e7.css">
+  <link rel="stylesheet" href="/21-group-project/assets/index-57769161.css">
 </head>
 
 <body>
@@ -144,11 +144,23 @@
         </p>
       </li>
     </ul>
-    <img
-      class="image-gif"
-      src="../img/work-it/freshharvestbox-mobile.gif"
-      alt="Fruit Gif Picture"
-    />
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="../img/work-it/freshharvestbox-desktop.gif"
+        width="860px"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="../img/work-it/freshharvestbox-tablet.gif"
+        width="704px"
+      />
+      <img
+        src="../img/work-it/freshharvestbox-mobile.gif"
+        style="width: auto"
+        class="image-gif"
+      />
+    </picture>
   </div>
 </section>
 
