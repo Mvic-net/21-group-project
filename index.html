@@ -19,31 +19,66 @@
   
 
   <script type="module" crossorigin src="/21-group-project/assets/index-c09e477e.js"></script>
-  <link rel="stylesheet" href="/21-group-project/assets/index-4ea9fa6a.css">
+  <link rel="stylesheet" href="/21-group-project/assets/index-92d55abd.css">
 </head>
 
 <body>
 
   <!-- Header -->
   <header class="header">
-  <button class="basket-button"></button>
-  <button
-    class="mobile-menu-button"
-    aria-expanded="false"
-    aria-controls="mobile-menu"
-    data-menu-button
-  >
-    <svg class="mobile-menu-icon" width="24" height="24">
+  <div class="heder-container container">
+    <div class="header-tablet-position">
+      <nav class="heder-nav">
+        <ul class="list nav-list">
+          <li class="nav-list-item">
+            <a href="" class="link nav-list-link">How It Works</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#fruits" class="link nav-list-link">Fruits</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#heder-contacts-ankor" class="link nav-list-link"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <a href="./index.html" class="heder-link link">
+        <svg class="nav-icon-logo" width="16" height="16">
+          <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-logo"></use>
+        </svg>
+        <span class="nav-logo-text">fresh harvest box</span>
+      </a>
+    </div>
+    <button class="heder-btn" type="button" data-modal-close>
+      <svg class="heder-modal-icon" width="28" height="28">
+        <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-basket-heder"></use>
+      </svg>
+    </button>
+    <button
+      class="mobile-menu-button"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      data-menu-button
+      fdprocessedid="6bmx38"
+    >
+    <svg class="heder-mobile-market" width="28" height="28">
       <use
-        class="mobile-menu-icon-open"
-        href="/21-group-project/assets/icons-578dd5c7.svg#icon-mob-menu"
-      ></use>
-      <use
-        class="mobile-menu-icon-close"
-        href="/21-group-project/assets/icons-578dd5c7.svg#icon-window-close"
+        href="/21-group-project/assets/icons-6f6b087b.svg#icon-header-packet"
       ></use>
     </svg>
-  </button>
+      <svg class="heder-mobile-menu-icon" width="24" height="24">
+        <use
+          class="mobile-menu-icon-open"
+          href="/21-group-project/assets/icons-6f6b087b.svg#icon-mob-menu"
+        ></use>
+        <use
+          class="mobile-menu-icon-close"
+          href="/21-group-project/assets/icons-6f6b087b.svg#icon-window-close"
+        ></use>
+      </svg>
+    </button>
+  </div>
 </header>
 
 
@@ -449,7 +484,7 @@
 
         <button class="fruits-btn btn js-open-modal" data-modal="1" type="button">
             <svg class="fruits-btn-icon" width="14" height="14">
-                <use href="/21-group-project/assets/icons-578dd5c7.svg#icon-fuits-btn"></use>
+                <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-fuits-btn"></use>
             </svg>
             <span class="fruits-btn-txt">oRDER</span>
         </button>
@@ -539,7 +574,7 @@
 
         <a href="./index.html" class="link logo">
           <svg class="footer-icon-logo" width="16" height="16">
-            <use href="/21-group-project/assets/icons-578dd5c7.svg#icon-logo"></use>
+            <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-logo"></use>
           </svg>
           <span class="footer-logo-text">fresh harvest box</span>
         </a>
@@ -566,21 +601,21 @@
         <li class="footer-icons-item">
           <a href="https://www.facebook.com/" class="footer-socmedia-link" target="_blank" rel="noreferrer noopener" aria-label="facebook">
             <svg class="footer-icon" width="24" height="24">
-              <use href="/21-group-project/assets/icons-578dd5c7.svg#icon-facebook"></use>
+              <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
         <li class="footer-icons-item">
           <a href="https://www.instagram.com/" class="footer-socmedia-link" target="_blank" rel="noreferrer noopener" aria-label="instagram">
             <svg class="footer-icon" width="24" height="24">
-              <use href="/21-group-project/assets/icons-578dd5c7.svg#icon-instagram"></use>
+              <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
         <li class="footer-icons-item">
           <a href="https://www.youtube.com/" class="footer-socmedia-link" target="_blank" rel="noreferrer noopener" aria-label="youtube" >
             <svg class="footer-icon" width="24" height="24">
-              <use href="/21-group-project/assets/icons-578dd5c7.svg#icon-youtube"></use>
+              <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-youtube"></use>
             </svg>
           </a>
         </li>
@@ -724,7 +759,7 @@
 <div class="window-order-you modal" data-modal="1">
     <button class="modal-close-btn js-modal-close">
         <svg class="modal-close-btn-icon" width="28" height="28">
-            <use href="/21-group-project/assets/icons-578dd5c7.svg#icon-icon_close"></use>
+            <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-icon_close"></use>
         </svg>
     </button>
     <p class="modal-order-text">Your Order</p>
@@ -898,7 +933,7 @@
   </div>
   <button class="btn-thank-you js-modal-close" type="button">
     <svg class="icon-btn">
-      <use href="/21-group-project/assets/icons-578dd5c7.svg#icon-window-close"></use>
+      <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-window-close"></use>
     </svg>
   </button>
 </div>
@@ -918,7 +953,7 @@
   </ul>
   <a href="#fruits" class="mobile-menu-icon-link"
     ><svg class="mobile-menu-icon" width="24" height="24">
-      <use href="/21-group-project/assets/icons-578dd5c7.svg#icon-basket"></use>
+      <use href="/21-group-project/assets/icons-6f6b087b.svg#icon-basket"></use>
     </svg>
   </a>
 </div>
