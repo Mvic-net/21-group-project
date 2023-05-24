@@ -70,9 +70,6 @@ body {
   max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
-
-  outline: 2px solid yellow;
-  outline-offset: -2px;
 }
 @media only screen and (min-width: 768px) {
   .container {
@@ -176,7 +173,7 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   z-index: 30; /* Должен быть выше чем у подложки*/
 
   /*  Побочные стили   */
