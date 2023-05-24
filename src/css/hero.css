@@ -34,6 +34,7 @@
 }
 
 .hero-container {
+  position: relative;
   margin-top: 60px;
   padding-top: 102px;
 }
@@ -52,6 +53,21 @@
   margin-bottom: 71px;
 }
 
+
+
+.hero-girl-thumb {
+  position: relative;
+  padding: 12px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 1));
+  border-radius: 500px;
+  ;
+}
+
+.hero-photo {
+  box-shadow: 0 0 0 11px var(--brand-cl);
+  border-radius: 500px;
+}
+
 @media screen and (min-width: 768px) {
   .background {
     max-width: 452px;
@@ -59,11 +75,16 @@
     margin-bottom: 79px;
   }
 
+  .hero-girl-thumb {
+    padding: 17px;
+  }
+
   .hero-photo {
-    width: 486px;
-    height: 742px;
+    box-shadow: 0 0 0 16px var(--brand-cl);
   }
 }
+
+
 
 .dec-straw {
   position: absolute;
@@ -119,10 +140,11 @@
 
 .hero-text {
   position: absolute;
-  top: -10%;
+  z-index: 10;
+  top: 64px;
+  left: 0;
   text-transform: uppercase;
   text-align: center;
-
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -140,8 +162,8 @@
     width: 704px;
     font-size: 50px;
     line-height: 1.1;
-    left: -28%;
-    top: -7%;
+    left: 50%;
+    transform: translate(-50%);
   }
 }
 
@@ -150,15 +172,16 @@
     width: 898px;
     font-size: 64px;
     line-height: 1;
-    left: -50%;
-    top: -8%;
+    left: 50%;
+    top: 64px;
+    transform: translateX(-50%);
   }
 }
 
 .hero-btn {
   position: absolute;
   left: 38%;
-  top: 93%;
+  bottom: -25px;
   width: 80px;
   height: 80px;
   border: 0;
@@ -175,6 +198,7 @@
   .hero-btn {
     width: 114px;
     height: 114px;
+    bottom: -12px;
   }
 }
 
@@ -221,6 +245,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-cards {
+    padding-top: 70px;
   }
 }
 
@@ -386,9 +416,9 @@
     align-items: flex-end;
   }
 
-  .hero-container-deck {
+  /* .hero-container-deck {
     padding-top: 104px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1280px) {
