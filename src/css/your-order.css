@@ -387,9 +387,7 @@
   .modal-fruits-textaria {
     height: 125px;
   }
-  .basket-img {
-    margin: 0 auto;
-  }
+  
 
   @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
     only screen and (min--moz-device-pixel-ratio: 1.5),
