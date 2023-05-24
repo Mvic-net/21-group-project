@@ -59,13 +59,13 @@
     background-repeat: no-repeat;
     background-position: 175% 100%;
   }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  /* @media only screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .modal-order {
       background-image: url('../img/modal-your-order/girl-with-banana-w469@2x.png');
     }
-  }
+  } */
 }
 
 @media only screen and (min-width: 1280px) {
@@ -75,13 +75,13 @@
     background-position: 100% 100%;
   }
 }
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
+/* @media only screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .modal-order {
-    background-image: url('../img/modal-your-order/girl-with-banana-w471@2x.png');
+    background-image: url('.. w471@2x.png');
   }
-}
+} */
 
 /* .backdrop.is-hidden .modal-order {
   transform: translate(-50%, -50%) rotate(360deg) scale(0.2);
